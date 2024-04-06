@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiftr Website</title>
+</head>
+<body>
+
+    <h1 class="Title">
+        SHIFTR
+    </h1>
+
+    <h2 class="Description">
+        Use this website to fill out necessary information needed to complete task/job at your LakeHouse.
+    </h2>
+
+    <img src="lake_house.jpg" class="img" width="500" height="400">
+
+    <div class="field">
+        <label for="first_name">First Name 
+        <span class="asterisk">*</span></label>
+        <input type="text" id="first_name" name="job_to_be_done[first_name]" aria-required="true" maxlength="255" autocomplete="given-name">
+      </div>
+
+    <div class="field">
+        <label for="last_name">Last Name 
+        <span class="asterisk">*</span></label>
+        <input type="text" id="last_name" name="job_to_be_done[last_name]" aria-required="true" maxlength="255" autocomplete="family-name">
+    </div>
+    
+    <div class="field">
+        <label for="email">Email 
+        <span class="asterisk">*</span></label>
+        <input type="text" id="email" name="job_to_be_done[email]" aria-required="true" maxlength="255" autocomplete="email">
+      </div>
+
+    <div class="field">
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="job_to_be_done[phone]" maxlength="255" autocomplete="tel">
+    </div>
+
+    <div class="field">
+        <label for="job-description">Job Description</label>
+        <input type="text" id="phone" name="job_to_be_done[job-description]" maxlength="255" autocomplete="tel">
+    </div>
+
+    <div class="field">
+        <label for="time-frame">Timeframe for Job</label>
+        <input type="text" id="phone" name="job_to_be_done[time-frame]" maxlength="255" autocomplete="tel">
+    </div>
+
+    <div id="submit_buttons">
+        <input type="button" value="Submit Application" id="submit_app" class="button">
+      </div>
+
+
+
+    
+</body>
+</html>
